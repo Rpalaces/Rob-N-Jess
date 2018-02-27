@@ -60,4 +60,12 @@
     // deal function:
     // hand out cards
     // display cards
+    // 4 things: hand, score, pic, name
+    function createPlayers()
+    {
+        $name = "";
+        $points = 0;
+        $pic = "";
+        
+    }
 ?>
