@@ -63,9 +63,37 @@
     // 4 things: hand, score, pic, name
     function createPlayers()
     {
-        $name = "";
-        $points = 0;
-        $pic = "";
+        createDeck();
         
+        $points = 0;
+        $name = "";
+        $hand = array();
+        
+        $player = array();
+        
+        for ($i = 0; $i < 4; $i++)
+        {
+            switch ($i)
+            {
+                case 0:
+                    $name = "Cody";
+                    array_push($player, $name, $points, $hand);
+                    break;
+                case 1:
+                    $name = "Kara";
+                    array_push($player, $name, $point, $hand);
+                    break;
+                case 2:
+                    $name = "Fernando";
+                    array_push($player, $name, $point, $hand);
+                    break;
+                case 3:
+                    $name = "Dani";
+                    array_push($player, $name, $point, $hand);
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 ?>
