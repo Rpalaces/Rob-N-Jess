@@ -69,7 +69,7 @@
         $name = "";
         $hand = array();
         
-        $player = array();
+        $players = array();
         
         for ($i = 0; $i < 4; $i++)
         {
@@ -77,23 +77,25 @@
             {
                 case 0:
                     $name = "Cody";
-                    array_push($player, $name, $points, $hand);
+                    array_push($players, $name, $points, $hand);
                     break;
                 case 1:
                     $name = "Kara";
-                    array_push($player, $name, $point, $hand);
+                    array_push($players, $name, $point, $hand);
                     break;
                 case 2:
                     $name = "Fernando";
-                    array_push($player, $name, $point, $hand);
+                    array_push($players, $name, $point, $hand);
                     break;
                 case 3:
                     $name = "Dani";
-                    array_push($player, $name, $point, $hand);
+                    array_push($players, $name, $point, $hand);
                     break;
                 default:
                     break;
             }
         }
+        
+        var_dump($players);
     }
 ?>
