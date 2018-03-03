@@ -1,0 +1,57 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    background-color: white; 
+}
+
+h1{
+    background: linear-gradient(to bottom right, grey, black);
+    text-align: center;
+    color: white;
+    font-family: 'Ariel', cursive;
+}
+
+h2{
+    font-size:200%;
+}
+
+#board{
+    font-family: 'Ariel', cursive;
+    top:25px;
+    left: 200px;
+    width:800px;
+    height:600px;
+    
+    border-color: black;
+    position: relative;
+    
+}
+
+#player1, #player2, #player3, #player4{
+    left:100px;
+}
+#player1{
+    top: 100px;
+}
+#player2{
+    top: 150px;
+}
+#player3{
+    top: 200px;
+}
+#player4{
+    top: 250px;
+}
+input{
+        position:absolute;
+        font-size:1.3em;
+        background-color: Green;
+        border:black;
+        outline:1px;
+        font-weight:bold;
+        color:black;
+        cursor:pointer;
+        left:425px;
+    }
