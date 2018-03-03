@@ -293,6 +293,7 @@
         $name = "";
         $hand = array();
         $playerArray = array();
+
         
         for ($i = 0; $i < 4; $i++)
         {
@@ -323,6 +324,7 @@
             }
         }
         return $playerArray;
+
     }
     
 ?>
